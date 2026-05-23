@@ -1,9 +1,19 @@
 {
-  "dataset": "illustrative",
-  "description": "Небольшой пример для быстрой ручной отладки",
+  "dataset": "illustrative_compressible",
+  "description": "Small but clearly compressible sample for quick manual checks",
   "payload": {
-    "title": "demo",
-    "values": [1, 1, 2, 3, 5, 8, 13],
-    "tags": ["json", "debug", "quick-check"]
+    "title": "demo-demo-demo-demo",
+    "values": [1,1,1,1,2,2,2,2,3,3,3,3,5,5,5,5,8,8,8,8,13,13,13,13],
+    "tags": [
+      "json-debug-quick-check",
+      "json-debug-quick-check",
+      "json-debug-quick-check",
+      "json-debug-quick-check"
+    ],
+    "notes": [
+      "repeat-repeat-repeat-repeat",
+      "repeat-repeat-repeat-repeat",
+      "repeat-repeat-repeat-repeat"
+    ]
   }
 }

@@ -1,13 +1,47 @@
 {
-  "dataset": "reference",
-  "version": 1,
-  "items": [
-    {"id": 1, "name": "alpha", "value": 120},
-    {"id": 2, "name": "beta", "value": 98},
-    {"id": 3, "name": "gamma", "value": 135}
-  ],
+  "dataset": "reference_compressible",
+  "version": 3,
   "meta": {
-    "source": "manual-check",
-    "note": "Эталонный входной файл для проверки сжатия и декомпрессии"
-  }
+    "source": "manual_check",
+    "purpose": "compression_demo",
+    "pattern": "AABBCCDDEEFF112233",
+    "note": "Repeating structures for stable compression ratio"
+  },
+  "records": [
+    {"id": 1, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 2, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 3, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 4, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 5, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 6, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 7, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 8, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 9, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 10, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 11, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 12, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 13, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 14, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 15, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 16, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 17, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 18, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 19, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 20, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 21, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 22, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 23, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"},
+    {"id": 24, "name": "ALPHA", "city": "Moscow", "status": "ACTIVE", "group": "G1", "tag": "AABBCCDDEEFF112233"}
+  ],
+  "lines": [
+    "id,name,city,status,group,tag",
+    "1,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "2,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "3,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "4,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "5,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "6,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "7,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233",
+    "8,ALPHA,Moscow,ACTIVE,G1,AABBCCDDEEFF112233"
+  ]
 }
