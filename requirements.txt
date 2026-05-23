@@ -1,0 +1,4 @@
+# Проект на Java/Maven и не использует Python-зависимости.
+# Для сборки и запуска нужны:
+# - JDK 21+
+# - Maven 3.9+ (или Maven Wrapper: mvnw/mvnw.cmd)

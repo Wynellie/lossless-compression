@@ -1,0 +1,13 @@
+{
+  "dataset": "reference",
+  "version": 1,
+  "items": [
+    {"id": 1, "name": "alpha", "value": 120},
+    {"id": 2, "name": "beta", "value": 98},
+    {"id": 3, "name": "gamma", "value": 135}
+  ],
+  "meta": {
+    "source": "manual-check",
+    "note": "Эталонный входной файл для проверки сжатия и декомпрессии"
+  }
+}
