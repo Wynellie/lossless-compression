@@ -3,6 +3,7 @@
   "description": "Small but clearly compressible sample for quick manual checks",
   "payload": {
     "title": "demo-demo-demo-demo",
+    "blob": "repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat-repeat",
     "values": [1,1,1,1,2,2,2,2,3,3,3,3,5,5,5,5,8,8,8,8,13,13,13,13],
     "tags": [
       "json-debug-quick-check",
